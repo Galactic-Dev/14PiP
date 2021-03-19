@@ -26,4 +26,10 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Respring" style:UIBarButtonItemStyleDone target:self action:@selector(respring)];
     self.navigationItem.rightBarButtonItem.tintColor = UIColor.systemRedColor;
 }
+
+-(void)respring {
+    NSTask *task = [[NSTask alloc] init];
+    [task setLaunchPath:@"/usr/bin/sbreload"];
+    [task launch];
+}
 @end
