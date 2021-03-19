@@ -1,9 +1,10 @@
 Package: com.galacticdev.14pip
 Name: 14PiP
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: iOS 14 style PiP on iOS 13
 Maintainer: Galactic Dev
 Author: Galactic Dev
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Depiction: https://galactic-dev.github.io/depictions/?p=com.galacticdev.14PiP
