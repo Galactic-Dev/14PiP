@@ -43,10 +43,6 @@ PiPViewController *newControlsViewController;
         newControlsViewController.view.alpha = !hidden;
     }];
 }
--(void)dealloc {
-    %orig;
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
 %end
 
 static void loadPrefs() {
